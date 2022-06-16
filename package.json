@@ -9,7 +9,8 @@
     "android",
     "index.js",
     "ios",
-    "react-native-voip24h-sdk.podspec"
+    "react-native-voip24h-sdk.podspec",
+    "third_party_podspecs"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
