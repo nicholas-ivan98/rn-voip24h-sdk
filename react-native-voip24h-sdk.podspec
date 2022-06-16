@@ -4,6 +4,12 @@ require "json"
 
 package = JSON.parse(File.read(File.join(__dir__, "package.json")))
 parentProject = File.expand_path("..", Dir.pwd)
+dirname = File.basename(parentProject)
+if dirname == "node_modules"
+  parentProject = File.dirname(parentProject)
+end
+puts parentProject
+
 reactVersion = JSON.parse(File.read(File.join(parentProject, "node_modules", "react-native", "package.json")))["version"]
 folly_version = '2021.04.26.00'
 boost_compiler_flags = '-Wno-documentation'
@@ -80,4 +86,3 @@ Pod::Spec.new do |s|
 
   s.dependency "#{folly_prefix}Folly"
 end
-
