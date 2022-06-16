@@ -1,0 +1,6 @@
+framework module react_native_voip24h_sdk {
+  umbrella header "react-native-voip24h-sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

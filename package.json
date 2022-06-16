@@ -1,0 +1,43 @@
+{
+  "name": "react-native-voip24h-sdk",
+  "title": "React Native Voip24h Sdk",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "react-native-voip24h-sdk.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanphat12041998/rn-voip24h-sdk.git",
+    "baseUrl": "https://github.com/tanphat12041998/rn-voip24h-sdk"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Tấn Phát",
+    "email": "nguyentanphat.12041998@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": ">=16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.68.2"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
