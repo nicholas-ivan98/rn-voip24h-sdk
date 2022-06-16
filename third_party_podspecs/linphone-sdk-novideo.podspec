@@ -1,10 +1,11 @@
 parentProject = File.expand_path("..", Dir.pwd)
 dirname = File.basename(parentProject)
-if dirname == "node_modules"
-  parentProject = File.dirname(parentProject)
+puts dirname
+if dirname == "react-native-voip24h-sdk"
+  parentProject = File.dirname(parentProject) + "/node_modules"
 end
 puts parentProject
-reactVersion = JSON.parse(File.read(File.join(parentProject, "node_modules", "react-native", "package.json")))["version"]
+reactVersion = JSON.parse(File.read(File.join(parentProject, "react-native", "package.json")))["version"]
 folly_version = '2021.04.26.00'
 boost_compiler_flags = '-Wno-documentation'
 
