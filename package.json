@@ -10,7 +10,7 @@
     "index.js",
     "ios",
     "react-native-voip24h-sdk.podspec",
-    "third_party_podspecs"
+    "third_party_podspecs/linphone-sdk-novideo.podspec"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
