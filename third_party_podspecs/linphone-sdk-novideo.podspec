@@ -1,8 +1,8 @@
 parentProject = File.expand_path("..", Dir.pwd)
 dirname = File.basename(parentProject)
 puts dirname
-if dirname == "react-native-voip24h-sdk"
-  parentProject = File.dirname(parentProject) + "/node_modules"
+if dirname == "rn-voip24h-sdk"
+  parentProject = File.dirname(parentProject)
 end
 puts parentProject
 reactVersion = JSON.parse(File.read(File.join(parentProject, "react-native", "package.json")))["version"]
