@@ -1,5 +1,5 @@
-import GraphModule from "./src/GraphModule";
-import MethodRequest from "./src/enum_type/EnumType";
+import GraphModule from "../src/GraphModule";
+import MethodRequest from "../src/enum_type/EnumType";
 import { NativeModules } from 'react-native'
 
 const LINKING_ERROR =
