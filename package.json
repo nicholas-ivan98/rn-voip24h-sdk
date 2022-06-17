@@ -9,6 +9,7 @@
     "android",
     "index.js",
     "ios",
+    "src",
     "react-native-voip24h-sdk.podspec",
     "third_party_podspecs/linphone-sdk-novideo.podspec"
   ],
